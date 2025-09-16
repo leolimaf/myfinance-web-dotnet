@@ -7,4 +7,8 @@
     <RootNamespace>myfinance_web_dotnet</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="myfinance-web-dotnet-service\myfinance-web-dotnet-service.csproj" />
+  </ItemGroup>
+
 </Project>
