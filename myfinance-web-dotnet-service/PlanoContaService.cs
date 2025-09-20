@@ -18,7 +18,7 @@ public class PlanoContaService : IPlanoContaService
     {
         var dbSet = _dbContext.PlanoConta;
 
-        if (entidade == null)
+        if (entidade.Id == null)
         {
             dbSet.Add(entidade);
         }
