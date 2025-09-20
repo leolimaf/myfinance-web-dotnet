@@ -11,7 +11,7 @@ public class PlanoContaService : IPlanoContaService
     
     public PlanoContaService(MyFinanceDbContext dbContext)
     {
-        dbContext = dbContext;
+        _dbContext = dbContext;
     }
 
     public void Cadastrar(PlanoConta entidade)
